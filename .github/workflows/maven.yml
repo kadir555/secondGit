@@ -27,7 +27,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: kadir555/secondGit
+        image: kadir555/secondgit
         tags: v1
         registry: docker.io
         dockerfile: Dockerfile
